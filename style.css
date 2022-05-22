@@ -107,9 +107,62 @@ body {
     min-width: 200px;
     width: 200px;
     height: 90px;
-    background-color: aquamarine;
     border-top-left-radius: 15%;
     border-bottom-right-radius: 15%;
+}
+
+.favorites .quick-links div:nth-child(1) {
+    background-image: url('./images/sites/1.jpg');
+}
+
+.favorites .quick-links div:nth-child(2) {
+    background-image: url('./images/sites/2.png');
+}
+
+.favorites .quick-links div:nth-child(3) {
+    background-image: url('./images/sites/3.png');
+}
+
+.favorites .quick-links div:nth-child(4) {
+    background-image: url('./images/sites/4.jpg');
+}
+
+.favorites .quick-links div:nth-child(5) {
+    background-image: url('./images/sites/5.png');
+}
+
+.favorites .quick-links div:nth-child(6) {
+    background-image: url('./images/sites/6.png');
+}
+
+.recent .quick-links div:nth-child(1) {
+    background-image: url('./images/sites/7.jpg');
+}
+
+.recent .quick-links div:nth-child(2) {
+    background-image: url('./images/sites/8.png');
+}
+
+.recent .quick-links div:nth-child(3) {
+    background-image: url('./images/sites/9.jpg');
+}
+
+.recent .quick-links div:nth-child(4) {
+    background-image: url('./images/sites/10.png');
+}
+
+.recent .quick-links div:nth-child(5) {
+    background-image: url('./images/sites/11.png');
+}
+
+.recent .quick-links div:nth-child(6) {
+    background-image: url('./images/sites/12.png');
+}
+
+.favorites .quick-links div, .recent .quick-links div {
+    background-position: center;
+    background-size: cover;
+    box-shadow: 10px 5px 5px rgb(61, 12, 48);
 }
 
 .logo {
